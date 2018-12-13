@@ -2,12 +2,17 @@
 error in print_m
 
 try code:
+    import fun_mac
+    macroyal jalapenio
+    mac = fun_mac.make_m(5, 3)
+    fun_mac.read_m(mac)
+    fun_mac.print_m(mac, None, "inp.txt.txt")
 
-import fun_mac
-macroyal jalapenio
-mac = fun_mac.make_m(5, 3)
-fun_mac.read_m(mac)
-fun_mac.print_m(mac, None, "inp.txt.txt")
+    standarization_m
+    I don't know if it works ¯\_(ツ)_/¯
+
+
+statistic_m does not gives answer with given precision
 """
 def print_m(t, d = None, f = None):
     """
@@ -165,12 +170,15 @@ def transpose_m(A):
             At[0][i] = A[i]
 
     else:
-        At = make_m(1, len(A))
+        At = make_m(len(A[0]), len(A))
         for i in range(len(A)):
             for j in range(len(A[0])):
                 At[j][i] = A[i][j]
 
     return At
+
+def copy_m(A):
+    return transpose_m(transpose_m(A))
 
 def track_m(A):
     """
@@ -410,4 +418,65 @@ def statistic_m(A, d = None):
         B[i][4] = As[i][len(As[i])-1]
 
     return B
+
+def min_m(A):
+    import math
+    mini = math.inf
+    for i in range(len(A)):
+        for j in range(len(A[0])):
+            if A[i][j] < mini: mini = A[i][j]
+    return mini
+
+def max_m(A):
+    import math
+    maxi = - math.inf
+    for i in range(len(A)):
+        for j in range(len(A[0])):
+            if A[i][j] > maxi: maxi = A[i][j]
+    return maxi
+
+def negative_avr(A, Row = True):
+    """
+    Function returns Matrix that consist only this raws of given
+        Matrix, that average of components in a row is unnegative.
+    """
+    if not Row:
+        C = transpose_m(A)
+    else:
+        C = copy_m(A)
+    B = []
+    for i in range(len(C)):
+        suma = 0
+        for j in range(len(C[0])):
+            suma += C[i][j]
+        if suma >= 0:
+            B.append(C[i])
+    if Row:
+        return B
+    else:
+        return transpose_m(B)
+
+def standarization_m(A):
+    def average(a):
+        suma = 0
+        for j in range(len(a)):
+            suma += a[j]
+        return suma/len(a)
+
+    def sd(a, s):
+        suma = 0
+        for j in range(len(a)):
+            suma += (a[j] - s)**2
+
+        return suma/len(a)
+
+    for i in range(len(A)):
+        av = average(A[i])
+        o = sd(A[i], av)
+        for j in range(len(A[0])):
+            A[i][j] -= av
+            A[i][j] /= o
+
+
+
 

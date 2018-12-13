@@ -1,6 +1,6 @@
 import fun_mac
 
-A = fun_mac.random_randint_m(5, 60)
+A = fun_mac.random_uniform_m(5, 600)
 
 As = fun_mac.statistic_m(A)
 
