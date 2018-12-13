@@ -1,0 +1,39 @@
+04.12.2018
+
+
+binary search - wyszukiwanie elementu w posortowanej tablicy dlugosci n
+
+pes: T(n) = { 1 for n<=1 ∧ T(n/2) + 1 wpp.(w przeciwnym przypadku)}
+     dla n-potega 2: T(n) = T(n/2) + 1 = T(n/4) + 2 = T(n/8) + 3 = ... = T(1) + k, dla k = log(2, n)
+     dla n-dowolna : niech k takie, ze 2**(k-1) < n <= 2**k
+                     T(n) <= O(k) = O(log(2, n) + 1)
+
+
+merge sort
+dla n = 2**k:
+    T(n) = {1 for n <= 1 ∧ 2 * T(n/2) + n wpp.}
+    T(n) = 2 * T(n/2) + n = 2 * (2 * T(n/4) + n/2) + n = 2 * (2 * (2 * T(n/8) + n/4) + n/2) + n =
+         = 2 ** 3 * T(n/8) + 3 * n = 2 ** 4 * T(n/4) + 4 * n = ... = 2 ** k * T(n / (2 ** k)) + k * n dla k = log(2, n)
+         = 2 ** k + k * n = n + log(2, n) * n
+    T(n) = O(n log n)
+
+
+
+quicksort - w tablicy t wybierz liczbe k(nejlepsza bylaby mediane, ale dlugo sie szuka, wezmy wiec pierwszy s brzegu
+            posortuj wablice tak, aby mniejsze od k byly na lewo od niej, a wiekrze na prawo(zadanko 4.06)
+            wywolaj rekurencyjnie quicksort 2 razy, na po poczadku do j oraz od j+1 do konca, dla j tze: t[j]=k
+T(n) = n + (1 + T(n-1)) = n + (1 + n - 1 + T(n-2)) = O(n ** 2)
+     ale tylko w momencie, gdy mamy stala na lewo i n-stala na prawo, ale jak liczy procentowo, np 1%, 99%, to to bedzie nlogn(z duza stala, ale nlogn)
+quicksort hybryda - gdy zmniejszymy sie do n <= 20, sortuj dalej insertion sort
+timsort - quicksort hybryda na sterydach, gdy mamy bardzo pecha i zblizamy sie do O(n**2), zmienia algorytm na gorszy, ale O(nlogn)
+quick median - partition na tablicy, a dalesz mediany szukamy tylko w dluzszej czesci
+partial sort - ciekawe, szuka k najmniejszych liczb
+
+
+sortowanie malych liczb lackowitych
+t = [t(0), ..., t(n-1)], t(i) ∈ {0, ..., k-1}, k ∈ IN
+<= <---zwykly porzadek liniowy liczb
+https://en.wikipedia.org/wiki/Pigeonhole_sort
+
+Na kolosie pojawi się motoda sortowania małych liczb naturalnych
+

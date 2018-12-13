@@ -1,0 +1,69 @@
+30.10.2018
+
+    #lista n elementowa
+[none] * n
+[a] * n
+    #lista 3 elementowa
+[1, 2, 3]
+    #dlugosc listy
+len(lista)
+    #x-owy element listy
+lista[x]    #ale narazie tylko dla dodatnich x, czyli: (x to {0, 1, 2, ..., len(lista)-1}
+    #lista.append() jest nielegalny, bo Gagolewski musi gadac przez godzine, zeby nam na to pozwolic ;)
+
+O(1) #Wielkie O od 1, czyli czas dostepu do zmiennej jest staly
+
+
+
+PROBLEM WYSZUKIWANIE WARTOSCI W TABLICY
+dane:
+t = [ t[0], t[1], ..., t[n-1] ]  <--->  t = (t1, t2, ..., tn)
+    t nalezy do D
+u nalezy do D
+wyjscie:
+i to jakikolwiek index t taki, ze t[i] == u
+gdy nie istnieje, i = None
+
+Teoria elitmowa:
+== to relacja rownowaznosci na D, bo:
+    a) zwrotna:     x == x
+    b) symetryczna: x == y <=> y == x
+    c) przechodnia: x == y and y == z => x == z
+
+Przy czym, mozemy sobie przeciazac ==
+
+
+Potrzeba algorytmu:
+    algorytm - skończony ciąg jasno zdefiniowanych czynności, koniecznych do wykonania pewnego rodzaju zadań. Sposób postępowania prowadzący do rozwiązania problemu.
+        Alagorytm jest abstrakcyjny. Gny napiszesz kawalek kodu, to juz nie jest algorytm, tylko jego interpretacja.
+    Cala matma na Data Science jest po to, aby "zdefiniowac czynności", czyli zeby inni wiedzieli o co nam chodzi, a nie dowodzic poprzez machane rekami :)
+    jeden problem -> wiele algorytmow -> rozne implementacje
+analiza algorytmow:
+    jak bedzie dzialac?             (ilosciowy spis zachowania algorytmu umozliwiajacy ocene jego efektywnosci)
+    wybor najleprzego z angorytmu
+
+
+Lecimu z problemem:
+w1:
+    i = 0
+    while i < len(t):
+        if t[i] == u:
+            return i
+        i += 1
+    return None
+
+
+Zanalizujmy:
+w1:
+    pamiec:             nie zalezy od wielkosci tablicy; 1 zmienna: tylko u; co najwyzej kilka.
+    "czas" dzialania:   Twi(t,u) - liczba operacji elementarnych potrzebnych do znalezienia odpowiedzi
+                        Dla optymistycznego przypadku: 1 operacja
+                        Dla pesymistycznego przypadku: n operacji, ale tak naprawde: f(n) = O(g(n)), czyli funkcja f jest rzedu O(g); f,g: IN -> IN  wtedy i tylko wtedy, gdy
+                            (istnieje c>0)(istnieje n0)(dla wszystkich n>n0)(f(n)<=c*g(n))
+                            Czyli, ddd n zlozonosc obliczeniowa jest ograniczona przez jakas prosta funkcje g.
+                        Dla przecietnego    przypadku: chuj wie(?) Zalezy od zalozen, 3 semestr, narazie wyjebane :)
+
+
+
+
+

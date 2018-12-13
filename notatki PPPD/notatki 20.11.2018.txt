@@ -1,0 +1,15 @@
+20.11.2018
+
+Rekurencja
+W definicji pojawia sie odniesienie do niego samego
++ warunek stopu, aby program sie zakonczyl
+
+def silnia(n):
+assert type(n) is int, n >= 0
+    if n == 0: return 1
+    return n * silnia(n-1)
+
+
+
+
+

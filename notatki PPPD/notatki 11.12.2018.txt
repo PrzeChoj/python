@@ -1,0 +1,59 @@
+11.12.2018
+
+sortowanie malych liczb lackowitych
+t = [t(0), ..., t(n-1)], t(i) ∈ {0, ..., k-1}, k ∈ IN
+<= <---zwykly porzadek liniowy liczb
+https://en.wikipedia.org/wiki/Pigeonhole_sort
+I podobne
+
+http://www.gagolewski.com/teaching/pppd/
+Książka Cormen'a
+
+Na kolosie pojawi się motoda sortowania małych liczb naturalnych
+1. Sortowanie przez wstawianie
+2. Sortowanie przez zliczanie
+
+
+
+Dziś kącik programisty.
+Elementy programowania obiektowego.
+Tablice dynamiczne.
+
+https://docs.python.org/2/tutorial/classes.html
+
+Klasa (class) - typ danych, zbiór
+Aby w kupie trzymać dane i poeracje na nich
+1. Atrybuty
+2. Metody, funkcje
+
+type(obiekt) zwraca nam naze klasy do ktorej nalezy obiekt
+             obiekt jest instancja
+
+
+code:
+x = 2 + 3j
+
+print(x.real)
+print(type(x))
+
+#oba sa takie same
+print(x.conjugate())
+print(complex.conjugate(x))
+:end code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

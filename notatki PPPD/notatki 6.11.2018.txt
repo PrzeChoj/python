@@ -1,0 +1,88 @@
+06.11.2018
+
+w1 jest liniowy(skomplikowanosc algorytmu jest liniowo zalezny od dlugosci n)
+
+notacja wielkie O:
+f, g: IN -> IN
+f = O(g), albo f(n) = O(g(n))
+To znaczy, ze (istnieje c>0)(istnieje n0)(wszystkie n>n0)  ??????
+
+f = Ω(g) <=> (istnieje d>0)(istnieje n0)(wszystkie n>n0) f(n)>=d*g(n)
+
+f e Θ(g) <=> f = O(g) && f = Ω(g) <=> (istnieje c,d>0)(istnieje n0)(wszystkie n>n0) d*g(n) <= f(n) <= c*g(n)
+
+Sprobojmy znalesc lepszy algorytm niz w1:
+ORACLE jest spoko, bo daje od razu odpowiedz, szkoda, ze nie istnieje :(
+
+wezmy problem z posortowana tablica:
+t = [t0, t1, t2, t3, ..., t(n-1)], ale t0 <= t1 <= t2 <= ... <= t(n-1)
+u = t(x)
+znajdz i, ze t(i)=u
+
+SZUKANIE BINARNE w2:
+l = 0
+r = n - 1
+while l <= r:
+    c = (l + r) // 2
+    if t[c] == u:   return c
+    elif t[c] > u:  r = c - 1  #elif not(t[c] <= u, b tak bylo w definicji tabicy
+    else:           l = c + 1
+return None
+
+<= to relacja porzadku liniowego:
+wlasnosci:
+a) zwrotna, bo      (wszystkie x)       (x <= x)
+b) antysymetria, bo (wszystkie x, y)    (x <= y && y <= x) => (x == y)
+c) przechodia, bo   (wszystkie x, y, z) (x <= y && y <= z) => (x <= z)
+d)                  (wszytskie x, y)    (x <= y or y <= x)
+
+Analiza algorytmu:
+T|opt|w2(n) = Θ(1)
+T|pes|w2(n) = Θ(log|2(n)) = Θ(log(n))
+
+Dlaczego log(n)?
+Niech n = 2^k dla pewnego k
+{ T|pes|w2(n) = T|pes|w2(2^k) = T|pes|w2(2^(k-1)) + 1 } and { T(1) = 1 }
+CZyli jest okreslony rekurencyjnie
+Zaczynajac od 2^k i schodzac po 1 w kazdej iteracji wykonamy (k+1) krokow
+
+Zatem T(2^k) = (k + 1)
+Wzialem n, zanalzlem k, takie, ze: T(2^k) <= T(n) < T(2^(k+1))
+
+
+Przyklady:
+O(log(n))    binarne
+O(sqrt(n))   liniowe; dzielniki; czy liczba jest pierwsza
+O(n)         -
+O(n*log(n)   sortowanie przez porownywanie
+O(n*sqrt(n)) -
+O(n^2)       naiwne wyszukiwanie, czyli przez wstawianie; naiwne sortowanie macierzy
+O(n^3)       mnozenie macierzy
+
+
+Mierzyc mozna nie tylko czas, ale na przyklad potrzebna pamiec:
+    Na przyklad, zeby posortowac n elementow, potrzena n^2 RAM
+    (n nad 2) = (n * (n+1))/2 = O(n^2)
+O(2^n) wszytskie podzbiory
+O(n!)  wszystkie permutacje
+
+
+
+
+kacik programisty pythona:
+REFERENCJE DO OBIEKTOW
+C, C++, Pascal   - wysokopoziomowe, ale daja dostwp do konkretnej komorki w pamiecie dzieki wskoznikami. To jest niebespieczne, bo mozna popsuc
+Java, C#, Python - referencje uzywa sie jak adresy, ale nie sa tym w zupelnosci
+                   x = ... #pudeleczko; wiazemy nazwe x z dynmicznie wyznaczonym elementem w pamieci
+{x = [1, 2, 3]
+{y = x
+{
+{y[0] = 7
+{
+{print(y, x)
+-------------> [7, 2, 3] [7, 2, 3]
+
+Aby nie stracic, trza stworzyc kopie:
+z = copy.copy(y) <-- z i y nie pokazuja na to samo, tylko na 2 inne elementy, ale maja te same zeczy w sobie
+
+

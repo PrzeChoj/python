@@ -1,0 +1,116 @@
+13.11.2018
+
+x = 5
+y = x
+x += 1
+asset y == 5 #Wyjatek, gdy jest False, w tym przypadku nie ba bledu
+
+Skalary sa niezmienialne w Python i Javie
+Zatem, gdy piszemy x = x + 1, to tworzy nawego x poprzez dodanie do wartosci starego x jedynki
+
+"""
+unit test (testy jednostkowe)
+#nie obchodzi nas co fobi funkcja, ale sprawdzany pojedyncze wyniki
+asset f(x1) == y1
+asset f(x2) == y2
+"""
+
+SORTOWANIE
+    Nawet jesli ktos zna jakis algorytm, zdziwia sie, ze mowimy o sortowaniu przez porownanie(czyli da sie bez porowania WOW)
+1) przez porownanie
+    Dane: t = [t(0), t(1), t(2), ..., t(n-1)], t(i) e D: (D, <=)-zbior liniowo uporzadkowany
+    Wynik: [tσ(1), ..., tσ(n-1)]: tσ(0) <= tσ(1) <= ... <= tσ(n-1)
+    permutacja σ: {0, ..., n-1} --(1-1; na)--> {0, ..., n-1}
+
+   Jesli w danych wejsciowych informacje sie powtarzaja, to moga byc rozne permutacje rozwiazywujace.
+   Jesli uda nam sie stworzyc algorytm, ktory zawrze daje nam jako wynik te same permutacje, to jest to algorytm stabilny
+   a) sortowanie w miejscu:
+       wynikiem bedzie sama tablica t
+   b) zwracamy posertowana kopie
+   c) argsort:
+       Na wyjsciu podaje kolejnosc indeksow na ktorych sa wyniki w kolejnosci
+       Czyli podaje σ
+
+       Tabelka zdjecie 13.11.2018
+       Gdypysmy posortowali to inaczej niz argsort, to nie bylibysmy w stanie posortowac pozostalych tablic, a tak to latwo :D
+       Sortujac najpierw po wzroscie, a potem po plci, za wzgledu na to, ze jest to algorytm stabilny, dane wejsciowe bedza podzielone na 2 podgrupy, w ramach ktorych mamy kolejnosc po wzroscie
+
+Q3 = kwartyl rzedu 0.75 (q0.75), czyli 75-percentyl
+     75% ludzi zarabia mniej niz Q3 zarobkow
+Q2 = mediana
+Q1 = q0.25
+
+
+2)Zdefiniujmy najgorszy mozliwy algorytm:
+    (dla wszystkich)σ: {0, ..., n-1} --> {0, ..., n-1}
+        if tσ(0) <= ... <= tσ(n-1)
+            return σ
+
+    Skomplikowanosc: O(n!)
+
+3)proste sortowania:
+    a)babelkowe      (bubble)
+    b)selection      (przez wybor)
+    c)insertion sort (przez wstawianie)
+
+    a)porownujemy parami, jesli relacja sie nie zgadza, zamieniamy miejscami i jedziemy dalej
+      Po pierwszym przejsciu mamy na ostatnim miejscu najwiekrzy element, zatem w nastepnym przejsciu mozna nie sprawdzac ostatniego
+
+        for i in range(n-1):
+            for j in rage(n-i-1)
+                if not(t[j] <= t[j+1]):
+                    t[j] <--> t[j+1]    #swap
+
+        Ten algortym jest stabilny.
+        Sprawdzmy jak szybko on dziala:
+            elementarne: porownywanie(1) i swapowanie(2)
+            (1) optymistycznie i pesymistycznie jest tyle samo:
+                Σ(i=0, do n-2)(n-i-1) = (((n-1)+(1))/2)(n-1) = n^2/2 - n/2 = O(n^2)
+            (2) optymistycznie: 0
+                pesymistycznie: n^2/2 - n/2 = O(n^2)
+        Jakbsmy posiadali licznik, ile bombelkow wyrzucilismy w tej iteracji, to gdy wiemy, ze jest 0, to nie trzeba sortowac dalej, bo wiemy, ze jest posertowane.
+        Albo wartownik, ktory pamieta pozycje ostatniego swapa i nie analizuje tych, ktore juz byly sprawdzane
+
+    b)Znajdujesz najmniejszy, wstawiasz na pierwsze miejsce. Sortujemy dalej z pominieciem pierwszego.
+        pesymistycznie i optymistycznie:
+            swap:       Θ(n)
+            porownanie: Θ(n^2)
+
+    c)Bierzemy pierwszy, gdy dostaniemy drugi, ustawiamy go na swoim miejscu wzgledem pierwszego elementu
+        | 5 3 6 1 2 4
+        5 | 3 6 1 2 4
+       #5 3 | 6 1 2 4
+        3 5 | 6 1 2 4
+       #3 5 6 | 1 2 4
+        3 5 6 | 1 2 4
+       #3 5 6 1 | 2 4
+        1 3 5 6 | 2 4
+       #1 3 5 6 2 | 4
+        1 2 3 5 6 | 4
+       #1 2 3 5 6 4 |
+        1 2 3 4 5 6 |
+
+       w i-tym kroku i pierwszych elementow jest juz wzglednie posortowanych
+       t[0] <= t[1] <= ... <= t[i-1]
+
+        swop:
+            optymistycznie: 0
+            pesymistycznie: Θ(n^2)
+        porownan:
+            optymistycznie: n-1
+            pesymistycznie: Θ(n^2)
+
+        gdybysmy znajdywali miejsce binarnie
+        swop:
+            juz posortowana: 0
+            z nowym trafiamy w polowe: O(n^2)
+            pesymistycznie:  Θ(n^2)
+        porownan:
+            juz posortowana: O(n * log(n))
+            z nowym trafiamy w polowe: O(n)
+            pesymistycznie: Θ(n * log(n))
+
+
+list(range(5)) --> [0, 1, 2, 3, 4]
+
+
