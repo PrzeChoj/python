@@ -276,7 +276,7 @@ def expand_m(A, b, t = None):
     #expanding by row
     if type(b[0]) == type([0, 0]) and len(b[0]) != 1:
         if t == None: t = len(A)
-        if len(b[0]) != len(A[0]): return None
+        if len(b[0]) != len(A[0]): return "XD", b
 
         Ar = make_m(len(A) + 1, len(A[0]))
 
@@ -382,7 +382,7 @@ def average_vector_m(A, o = 0):
     Function returns vector that i-value contain average value for
         numbers in i-row(o = 0), or i-colum(o = 1)
     """
-    if o ==0:
+    if o == 0:
         V = make_m(len(A), 1)
 
         for i in range(len(A)):
@@ -482,18 +482,47 @@ def standarization_m(A):
 
 def shifting_rows_by_avr(A):
     """
-    Doesn't work
-    Plz don't use
+    Does work
+    Plz do use
     """
     V = average_vector_m(A)
     V = expand_m(A, V, 0)
+    I = [ [i] for i in range(len(A)) ]
+    V = expand_m(V, I, 1)
+
+
+
     wartownik = len(V) - 1
 
     for i in range(len(V) - 1, 0, -1):
         for j in range(wartownik):
-            if V[j][0] > V[j+1][0]:
-                V[j][0], V[j + 1] = V[j + 1][0], V[j]
+            if V[j][0] > V[j + 1][0]:
+                V[j][0], V[j + 1][0] = V[j + 1][0], V[j][0]
+                V[j][1], V[j + 1][1] = V[j + 1][1], V[j][1]
                 wartownik = j
+
+    J = make_m(1, len(V[0]), 0)
+
+    V = expand_m(V, J, 0)
+    V = delete_r_c_m(V, 0)
+
+    V = expand_m(V, I, 1)
+
+    for i in range(len(V)):
+        if V[i][0][0] == V[i][1][0]: continue
+        for j in range(i, len(V)):
+            if V[j][1][0] == V[i][0][0]:
+                for k in range(1, len(V[0])):
+                    V[i][k], V[j][k] = V[j][k], V[i][k]
+
+
+    J = make_m(1, len(V[0]), 0)
+    V = expand_m(V, J, 0)
+    V = delete_r_c_m(V, 0)
+    J = make_m(1, len(V[0]), 0)
+    V = expand_m(V, J, 0)
+    V = delete_r_c_m(V, 0)
+
 
     return V
 
