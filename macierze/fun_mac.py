@@ -178,6 +178,9 @@ def transpose_m(A):
     return At
 
 def copy_m(A):
+    """
+    Returns hard copy of given matrix
+    """
     return transpose_m(transpose_m(A))
 
 def track_m(A):
@@ -265,7 +268,7 @@ def expand_m(A, b, t = None):
     Function makes new matrix that is matrix A expanded by vector b
         placed on place t(in case of lack of this parameter
         it is placed on the end)
-    If vector is in inappropriate length, function returns None
+    If vector has an inappropriate length, function returns None
     If vector if in such a form: [a, b, c, ...]: where a, b, c,... are numbers,
         matrix is expanded by row.
         If vector is in form: [ [a, b, c,... ] ], it is expanded by column.
@@ -476,6 +479,23 @@ def standarization_m(A):
         for j in range(len(A[0])):
             A[i][j] -= av
             A[i][j] /= o
+
+def shifting_rows_by_avr(A):
+    """
+    Doesn't work
+    Plz don't use
+    """
+    V = average_vector_m(A)
+    V = expand_m(A, V, 0)
+    wartownik = len(V) - 1
+
+    for i in range(len(V) - 1, 0, -1):
+        for j in range(wartownik):
+            if V[j][0] > V[j+1][0]:
+                V[j][0], V[j + 1] = V[j + 1][0], V[j]
+                wartownik = j
+
+    return V
 
 
 

@@ -6,3 +6,5 @@ fun_mac.standarization_m(A)
 
 print(f"min: {fun_mac.min_m(A)}")
 print(f"max: {fun_mac.max_m(A)}")
+
+fun_mac.print_m(A, 3)
