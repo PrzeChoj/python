@@ -529,6 +529,28 @@ def shifting_rows_by_avr(A):
 
     return V
 
-
+"""
+Ni chy=uja nie wiem, jak to zrobic :(
+def how_many_same_m(A):
+    ""
+    Funkcja zwraca liczbe:
+        |{ (i1, ..., im): A[i1][1] = A[i2][i] = ... = A[im][m] }|
+        gdzie m = len(A[0)
+    ""
+    def dla_kazdej_wartosci_w kolumnie(liczik):
+        for i1 in range(len(A)):
+            if A[i1][j1] == A[i][j]:
+                licznik[i1] += 1
+                    
+    
+    for i in range(len(A)):
+        for j in range(len(A[0])):
+            licznik = [0] * len(A[0])
+            for j1 in range(len(A[0])):
+                dla_kazdej_wartosci_w_kolumnie(licznik)
+                    
+    
+    
+"""
 
 
