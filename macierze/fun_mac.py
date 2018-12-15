@@ -82,7 +82,9 @@ def read_m(m, f = None, l = 0):
 def random_uniform_m(m, n = None, a = 0, b = 1):
     """
     returns a matrix m X n
-    with a random float values x so that: a(=0) <= x <= b(=1).
+        with a random float values x so that: a(=0) <= x <= b(=1).
+    Zwraca macierz wielkosci m na n wypelniona wartosciami
+        float z przedzialu <a, b>
     Jesli pominiemy 2 wspolrzedna, tworzy macierz kwadratowa.
     """
     if n == None: n = m
@@ -98,7 +100,9 @@ def random_uniform_m(m, n = None, a = 0, b = 1):
 def random_randint_m(m, n = None, a = -10, b = 10):
     """
     returns a matrix m X n
-    with a random integer values x so that: a(=0) <= x <= b(=1)
+        with a random integer values x so that: a(=0) <= x <= b(=1)
+    Zwraca macierz wielkosci m na n wypelniona losowymi intami
+        z przedzialu <a, b>
     Jesli pominiemy 2 wspolrzedna, tworzy macierz kwadratowa.
     """
     if n == None: n = m
@@ -123,8 +127,8 @@ def make_m(m, n = None, w = None):
 
 def sum_m(A, B):
     """
-    Returns a sum of 2 matrix
-    If matrixes are unaddable, returns None
+    Zwraca sume 2 macierzy
+    Jesli macierze sa niedodawalne, zwraca None
     """
     if len(A) != len(B) or len(A[0]) != len(B[0]):
         return None
@@ -139,7 +143,7 @@ def sum_m(A, B):
 
 def negativ_m(A):
     """
-    Returns changed matrix with all the values turned into minus itself
+    Zwraca macierz z wartosciami przeciwnymi do macierzy podanej
     """
     nA = make_m(len(A), len(A[0]))
     for i in range(len(nA)):
@@ -149,8 +153,8 @@ def negativ_m(A):
 
 def sub_m(A, B):
     """
-    Returns a matrix C that for every i, j: C[i][j] = A[i][j] - B[i][j]
-    If matrixes are unsubstractable, returns None
+    Zwraca macierz C ktorej dla kazdego elementu i, j: C[i][j] = A[i][j] - B[i][j]
+    Jesli macierze sa nieodejmowalne, zwraca None
     """
     if len(A) != len(B) or len(A[0]) != len(B[0]):
         return None
@@ -162,8 +166,10 @@ def sub_m(A, B):
 
 def transpose_m(A):
     """
-    Returns matrix transposed to A
+    Zwraca macierz transponowana do podanej
     """
+
+    #Jesli podana macierz to vektor
     if type(A[0]) != type([0, 0]):
         At = make_m(1, len(A))
         for i in range(len(A)):
@@ -179,14 +185,14 @@ def transpose_m(A):
 
 def copy_m(A):
     """
-    Returns hard copy of given matrix
+    Zwraca kopie macierzy A
     """
     return transpose_m(transpose_m(A))
 
 def track_m(A):
     """
-    Function returns track of matrix.
-    If matrix is not squared, returns None
+    Zwraca slad podanej macierzy
+    Jesli macierz nie jest kwadratowa, zwraca None
     """
     if len(A) != len(A[0]):
         return None
@@ -199,7 +205,7 @@ def track_m(A):
 
 def is_symetric_m(A):
     """
-    Function returns True, when given matrix is symetrical
+    Zwraca True, jesli macierz jestsymetryczna
     """
     if len(A) != len(A[0]): return False
 
@@ -211,8 +217,8 @@ def is_symetric_m(A):
 
 def diagonal_m(A):
     """
-    Function returns array that has values of given matrix on diagonal in itself
-    Returns None if matrix is not squared
+    Zwraca tablice o wartosciach z diagonali danej macierzy
+    Jesli macierz nie jest kwadratowa, zwraca None
     """
     if len(A) != len(A[0]): return None
     d = [None] * len(A)
@@ -224,16 +230,15 @@ def diagonal_m(A):
 
 def multiplication_m(A, k = None):
     """
-    Function is returning a multiplication of matrix and matrix
-        or matrix and scalar.
-    If 2nd argument is missing, multiplies matrix by itself.
-    If multiplication is impossible, returns None
+    Zwraca wynik mnozenia macierzy z macierza, albo macierzy ze skalarem
+    Jesli nie podajemy przez co pomnozyc, mnozy maciez przez sama siebie
+    Jesli mnozenie jest niemozliwe, zwraca None
     """
     if k == None: k = A
 
     if type([[0], [0]]) == type(k):
 
-        #multiplication of 2 vectors
+        #mnozenie 2 vektorow
         if type(A[0]) != type([0, 0]):
             if len(k[0]) != len(A): return None
             C = make_m(len(A), len(k[0]))
@@ -242,7 +247,7 @@ def multiplication_m(A, k = None):
                     C[i][j] = A[i] * k[0][j]
             return C
 
-        #both arguments are matrixes
+        #mnozenie 2 macierzy
         if len(A[0]) != len(k): return None
         C = make_m(len(A), len(k[0]))
         for i in range(len(C)):
@@ -254,7 +259,7 @@ def multiplication_m(A, k = None):
                 C[i][j] = sum
         return C
 
-    #multiplication of matrix by scalar
+    #mnozenie macierzy przez skalar
     if str(type(3)) == str(type(k)) or str(type(3.3)) == str(type(k)):
         B = [ [None] * len(A[0]) for i in range(len(A)) ]
         for i in range(len(A)):
@@ -265,15 +270,16 @@ def multiplication_m(A, k = None):
 
 def expand_m(A, b, t = None):
     """
-    Function makes new matrix that is matrix A expanded by vector b
-        placed on place t(in case of lack of this parameter
-        it is placed on the end)
-    If vector has an inappropriate length, function returns None
-    If vector if in such a form: [a, b, c, ...]: where a, b, c,... are numbers,
-        matrix is expanded by row.
-        If vector is in form: [ [a, b, c,... ] ], it is expanded by column.
+    Funkcja tworzy nowa macierz, ktora jest dana macierza rozszezona o
+        wektor b postawiony na t-tym miejscy(jesli nie podany jest ten
+        parametr, wstawiany jest na koniec)
+    Jesli wektor jest nieodpowiedniej dlugosci, zwraca None
+    Jesli wektor jest w formie: [a, b, c, ...]: gdzie a, b, c,... to liczby,
+        macierz jest powiekrzana o wiersz
+    Jesli wektor jest w formie [ [a, b, c,... ] ],
+        macierz jest rozszezana o kolumne
     """
-    #expanding by row
+    #rozszezanie o wiersz
     if type(b[0]) == type([0, 0]) and len(b[0]) != 1:
         if t == None: t = len(A)
         if len(b[0]) != len(A[0]): return "XD", b
@@ -294,7 +300,7 @@ def expand_m(A, b, t = None):
         return Ar
 
 
-    #expanding by column
+    #rozszezanie o kolumne
     if t == None: t = len(A[0])
     if len(b) != len(A): return None
 
@@ -314,11 +320,11 @@ def expand_m(A, b, t = None):
 
 def delete_r_c_m(A, n = None, m = None, amount_n = None, amount_m = None):
     """
-    Function returns matrix without some of the rows or columns
-        (1 in conjecture)
-    If 3rd parameter is missing - conjecture same as 2nd
-    If 2nd parameter is missing - conjecture last
-    Remember that columns and rows are numbered from 0, 1, 2,...
+    Funkcja zwraca dana macierz pomniejszona o niektore z wierszy
+        albo kolumn (jedna jesli nie podane)
+    Jesli 3. parametr jest pominiety - usuwany jest ten sam, co 2.
+    Jesli 2. jest pominiety - usuwa odtatni
+    Pamietaj, ze kolumny i wiersze sa numerowane od 0
     """
     if n == None: n = len(A)
     if m == None: m = n
@@ -347,8 +353,8 @@ def delete_r_c_m(A, n = None, m = None, amount_n = None, amount_m = None):
 
 def is_magic_sq_m(M):
     """
-    Function returns True if matrix is magic square and
-        returns False otherwise
+    Funkcja zwraca True, jesli podana macierz to kwarat magiczny
+        False w przeciwnym przypadku
     """
     if len(M) != len(M[0]): return False
 
@@ -377,26 +383,23 @@ def is_magic_sq_m(M):
 
     return True
 
-def average_vector_m(A, o = 0):
+def average_vector_m(A):
     """
-    Function returns vector that i-value contain average value for
-        numbers in i-row(o = 0), or i-colum(o = 1)
+    Funkcja zwraca wektor, ktory zawiera srednie wartosci w i-tym wierszu
     """
-    if o == 0:
-        V = make_m(len(A), 1)
-
-        for i in range(len(A)):
-            sum = 0
-            for j in range(len(A[0])):
-                sum += A[i][j]
-            V[i] = sum/len(A[0])
-        return V
+    V = make_m(len(A), 1)
+    for i in range(len(A)):
+        sum = 0
+        for j in range(len(A[0])):
+            sum += A[i][j]
+        V[i] = sum/len(A[0])
+    return V
 
 def statistic_m(A, d = None):
     """
-    Function returns matrix which for every raw gives 5 atributes:
-        minimum, 1ts quartile, median, 3rd quartile, max
-    Gives it with precision of d
+    Funkcja zwraca macierz, ktora w karzdym wierszu zawiera 5 elementow:
+        minimum, 1. kwartyl, mediane, 3. kwartyl, maximum
+    Daje je z dokladnoscia d #niegotowe
     """
 
     if len(A[0]) < 6: return None
@@ -440,8 +443,8 @@ def max_m(A):
 
 def negative_avr(A, Row = True):
     """
-    Function returns Matrix that consist only this raws of given
-        Matrix, that average of components in a row is unnegative.
+    Funkcja zwraca macierz, ktora zawiera tylko te wiersze z podanej
+        macierzy, ktorych srednia arytmetyczna jest nieujemna
     """
     if not Row:
         C = transpose_m(A)
