@@ -14,7 +14,7 @@ try code:
 
 statistic_m does not gives answer with given precision
 """
-def print_m(t, d = None, f = None):
+def print_m(A, d = None, f = None):
     """
     Funkcja dostaje macierz t
     Funkcja wydrukuje macierz na terminal, lub do pliku
@@ -23,10 +23,14 @@ def print_m(t, d = None, f = None):
          wydrukuje maksymalnie taka ilosc znakow w kazdej komurce
     Funkcja dostosowuje dlugosci wartosci w macierzy
     """
+    t = copy_m(A)
+
     if d != None:
-        for i in range(len(t)):
-            for j in range(len(t[0])):
-                t[i][j] = (int(t[i][j] * 10**d)/10**d)
+        for i in range(len(A)):
+            for j in range(len(A[0])):
+                t[i][j] = (int(A[i][j] * 10**d)/10**d)
+
+
     if type(t) != type([ [0, 0], [0, 0] ]):
         print("It's not a matrix!\nIt is:")
         print(t)
@@ -48,7 +52,7 @@ def print_m(t, d = None, f = None):
         with open(f, "a") as out:
             for i in range(len(t)):
                 for j in range(len(t[0])):
-                    print(" " * (length[j] - len(str(t[i][i]))), end = "")
+                    print(" " * (length[j] - len(str(t[i][i]))), end = "", file = out)
                     print(t[i][j], end=" ", file = out)
                 print("", file = out)
 
@@ -77,7 +81,7 @@ def read_m(m, f = None, l = 0):
                 liczby = liczby.split(" ")
 
                 for j in range(len(m[0])):
-                    m[i][j] = int(liczby[j])
+                    m[i][j] = float(liczby[j])
 
 def random_uniform_m(m, n = None, a = 0, b = 1):
     """
@@ -170,7 +174,7 @@ def transpose_m(A):
     """
 
     #Jesli podana macierz to vektor
-    if type(A[0]) != type([0, 0]):
+    if type(A[0]) != type([0, 0]) or len(A[0]) == 1:
         At = make_m(1, len(A))
         for i in range(len(A)):
             At[0][i] = A[i]
@@ -205,13 +209,13 @@ def track_m(A):
 
 def is_symetric_m(A):
     """
-    Zwraca True, jesli macierz jestsymetryczna
+    Zwraca True, jesli macierz jest symetryczna
     """
-    if len(A) != len(A[0]): return False
+    if len(A) != len(A[0]): return None
 
     for i in range(len(A)):
-        for j in range(len(A[0]) - i):
-            if A[i][j] != A[len(A) - i - 1][len(A[0]) - j - 1]: return False
+        for j in range(i, len(A[0])):
+            if A[i][j] != A[j][i]: return False
     return True
 
 
@@ -221,10 +225,10 @@ def diagonal_m(A):
     Jesli macierz nie jest kwadratowa, zwraca None
     """
     if len(A) != len(A[0]): return None
-    d = [None] * len(A)
+    d = [0] * len(A)
 
     for i in range(len(A)):
-        d[i] = A[i][i]
+        d[i] += A[i][i]
 
     return d
 
@@ -552,5 +556,3 @@ def how_many_same_m(A):
     
     
 """
-
-
