@@ -23,7 +23,8 @@ def print_m(A, d = None, f = None):
          wydrukuje maksymalnie taka ilosc znakow w kazdej komurce
     Funkcja dostosowuje dlugosci wartosci w macierzy
     """
-    t = copy_m(A)
+    import copy
+    t = copy.deepcopy(A)
 
     if d != None:
         for i in range(len(A)):
