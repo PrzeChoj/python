@@ -1,6 +1,6 @@
 """
 Nie bardzo dziala
-Po odhashowaniu 33 linijki na wykresie powinny pojawiac sie
+Po odhashowaniu 26 i 33 linijki na wykresie powinny pojawiac sie
     proste najleprzego dopasowania, ale z jakiegos powodu
     cos tam sie ewidentnie spierdolilo.
 """
@@ -23,7 +23,7 @@ def druk_do_pliku(table):
     import matplotlib.pyplot as plt
     plt.figure(figsize=[16, 16], dpi=72)
 
-    prost = proste(table)
+    #prost = proste(table)
 
     for n in range(4):
         for m in range(4):

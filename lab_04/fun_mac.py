@@ -252,7 +252,7 @@ def multiplication_m(A, k = None):
             return C
 
         #mnozenie 2 macierzy
-        if len(A[0]) != len(k): return None
+        if len(A) != len(k[0]): return None
         C = make_m(len(A), len(k[0]))
         for i in range(len(C)):
             for j in range(len(C[0])):
@@ -286,7 +286,7 @@ def expand_m(A, b, t = None):
     #rozszezanie o wiersz
     if type(b[0]) == type([0, 0]) and len(b[0]) != 1:
         if t == None: t = len(A)
-        if len(b[0]) != len(A[0]): return "XD", b
+        if len(b[0]) != len(A[0]): return "Rozne dlugosci macierzy!", b
 
         Ar = make_m(len(A) + 1, len(A[0]))
 
