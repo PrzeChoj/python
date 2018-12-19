@@ -31,7 +31,7 @@ def druk_do_pliku(table):
             plt.subplot(4, 4, n * 4 + m + 1)
 
             for i in range(len(table[0])):
-                plt.scatter(table[m][i], table[n][i], color = "green")
+                plt.scatter(table[m][i], table[n][i], color = "green", alpha=0.3)
 
             #plt.plot(prost[n][m][1] + prost[n][m][0] * min(table[m]), prost[n][m][1] + prost[n][m][0] * max(table[m]), color="red")
 
