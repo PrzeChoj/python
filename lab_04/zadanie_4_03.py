@@ -1,5 +1,6 @@
 import fun_mac
 import math
+import matplotlib.pylab as plt
 
 def wczytanie():
     table = []
@@ -13,7 +14,6 @@ def wczytanie():
     return table
 
 def zapis(A, C):
-    import matplotlib.pylab as plt
     plt.figure(figsize=[8, 4], dpi=72)
     plt.subplot(1, 2, 1)
     for i in range(len(A[0])):
@@ -84,13 +84,19 @@ wycentrowanie(A)
 #obrazek()
 
 k = 100
-war = []
+wektor_theta = [i*math.pi/k for i in range(k)]
+
+def var(theta, A):
+    C = mnoz(obrot(theta), A)
+    return wariancja(C[0]), wariancja(C[1])
+
+wektor_x = [0] * k
+wektor_y = [0] * k
+
 for i in range(k):
-    the = i*math.pi/k
+    wektor_x[i] = var(wektor_theta[i], A)[0]
+    wektor_y[i] = var(wektor_theta[i], A)[1]
 
-    B = obrot(the)
-
-    C = mnoz(B, A)
-    war.append(wariancja(C[0]))
-
-zapis(A, war)
+plt.plot(wektor_theta, wektor_x, "r-")
+plt.plot(wektor_theta, wektor_y, "b--")
+plt.savefig("output2.png")
