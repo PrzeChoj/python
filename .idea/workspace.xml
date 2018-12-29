@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f73e09b-d5b8-461d-b71a-5d91834aa105" name="Default Changelist" comment="" />
+    <list default="true" id="4f73e09b-d5b8-461d-b71a-5d91834aa105" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +15,16 @@
     <session id="1489190780">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,7 +32,7 @@
           <entry key="inp" value="12" />
           <entry key="odwrocone" value="11" />
           <entry key="png" value="5" />
-          <entry key="py" value="1152" />
+          <entry key="py" value="1158" />
           <entry key="txt" value="580" />
         </counts>
       </usages-collector>
@@ -36,21 +40,21 @@
         <counts>
           <entry key="Image" value="5" />
           <entry key="PLAIN_TEXT" value="603" />
-          <entry key="Python" value="1152" />
+          <entry key="Python" value="1158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="281" />
           <entry key="inp" value="55" />
-          <entry key="py" value="48980" />
+          <entry key="py" value="49902" />
           <entry key="txt" value="8390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8726" />
-          <entry key="Python" value="48980" />
+          <entry key="Python" value="49902" />
         </counts>
       </usages-collector>
     </session>
@@ -58,10 +62,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../git/reposidore/new.py">
+        <entry file="file://$PROJECT_DIR$/SPOJ/3366 sudoku(dziala, ale nie akceptuje).py.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="87">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <marker date="1545390707730" expanded="true" signature="330:331" ph="..." />
+                <marker date="1545390707730" expanded="true" signature="330:339" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,11 +81,12 @@
       <find>rand</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spoj/SPOJ 1042.py" />
-        <option value="$PROJECT_DIR$/spoj/blad dla roznej kolejnosci spacji.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ 438.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_968.py" />
         <option value="$PROJECT_DIR$/spoj/ciagi.txt" />
@@ -127,6 +136,8 @@
         <option value="$PROJECT_DIR$/SPOJ/TEST.py" />
         <option value="$PROJECT_DIR$/../git/reposidore/hello.py" />
         <option value="$PROJECT_DIR$/../git/reposidore/new.py" />
+        <option value="$PROJECT_DIR$/SPOJ/3366 sudoku.py" />
+        <option value="$USER_HOME$/Downloads/MiNI-master/lab_punktowane/Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A.py" />
       </list>
     </option>
   </component>
@@ -151,22 +162,7 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="notatki PPPD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="podstawowa analiza danych" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="SPOJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="zadanka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +175,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/macierze kartka 5" />
+      <recent name="$PROJECT_DIR$/SPOJ" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/notatki PPPD" />
       <recent name="$PROJECT_DIR$/zadanka" />
@@ -199,7 +199,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TEST (1)">
+  <component name="RunManager" selected="Python.Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A">
+    <configuration name="3366 sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SPOJ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SPOJ/3366 sudoku(dziala, ale nie akceptuje).py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/MiNI-master/lab_punktowane" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/MiNI-master/lab_punktowane/Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TEST (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,48 +255,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SPOJ/TEST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zadanko_5.11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zadanka" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zadanka/zadanko_5.11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zadanko_5.12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zadanka" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zadanka/zadanko_5.12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,18 +307,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.zadanko_5.9" />
-      <item itemvalue="Python.zadanko_5.11" />
-      <item itemvalue="Python.zadanko_5.12" />
       <item itemvalue="Python.zadanko_5.13" />
       <item itemvalue="Python.TEST (1)" />
+      <item itemvalue="Python.3366 sudoku" />
+      <item itemvalue="Python.Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A" />
+        <item itemvalue="Python.3366 sudoku" />
         <item itemvalue="Python.TEST (1)" />
         <item itemvalue="Python.zadanko_5.13" />
         <item itemvalue="Python.zadanko_5.9" />
-        <item itemvalue="Python.zadanko_5.12" />
-        <item itemvalue="Python.zadanko_5.11" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -344,7 +344,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" weight="0.4632258" />
+      <window_info anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" weight="0.39225808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39483872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,19 +376,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_978(nie_dziala_tak_jak_powinno).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_977.py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_806.py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_727(zbyt_skomplikowany_kod-pogubiłem_sie_xD).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_708.py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_663(nie akceptuje D:).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ 1042(dziala, ale nie akceptuje).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ 751 (nie dziala).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ 541 (nie dziala).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ 541 (losowanie punktow).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ 438.py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_8090(nie_dziala).py" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_1056.py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_727(zbyt_skomplikowany_kod-pogubiłem_sie_xD).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_708.py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_663(nie akceptuje D:).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ 751 (nie dziala).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ 541 (nie dziala).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ 541 (losowanie punktow).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ 438.py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_8090(nie_dziala).py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_1056.py" />
     <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ_1042.py" />
     <entry file="file://$PROJECT_DIR$/zadanko Kosterny/prawdopodobienstwo.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -431,69 +427,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1_bundled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3_bundled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <marker date="1544363140293" expanded="true" signature="23:28" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1544363724613" expanded="true" signature="27:28" ph="..." />
-            <marker date="1544363724613" expanded="true" signature="27:96" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2_bundled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1_bundled.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3_bundled.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.4.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.5.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2_bundled.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1.py" />
     <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/statystyki.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -501,83 +442,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/TEST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.7_bundled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.10.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq1.txt" />
+    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq2.txt" />
+    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq3.txt" />
+    <entry file="file://$PROJECT_DIR$/zadanka/TEST.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.11.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.6.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.7_bundled.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.9.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.12.py" />
+    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.13.py" />
     <entry file="file://$PROJECT_DIR$/notatki PPPD/notatki 6.11.2018.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
@@ -603,45 +478,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadanka/inp.txt" />
+    <entry file="file://$PROJECT_DIR$/zadanka/fun_mac.py" />
+    <entry file="file://$PROJECT_DIR$/../git/reposidore/hello.py" />
+    <entry file="file://$PROJECT_DIR$/../git/reposidore/new.py" />
+    <entry file="file://$PROJECT_DIR$/SPOJ/SPOJ 1042(dziala, ale nie akceptuje).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/MiNI-master/lab_punktowane/punktowane_laby.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/MiNI-master/lab_punktowane/Chojecki_Przemyslaw_298814_SherLOCKED_zadanie3A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPOJ/3366 sudoku(dziala, ale nie akceptuje).py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
-            <marker date="1544524889065" expanded="true" signature="12:190" ph="..." />
-            <marker date="1544524889065" expanded="true" signature="950:1169" ph="..." />
+            <marker date="1545390707730" expanded="true" signature="330:331" ph="..." />
+            <marker date="1545390707730" expanded="true" signature="330:339" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/inp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/fun_mac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11687">
-          <caret line="403" column="25" lean-forward="true" selection-start-line="403" selection-start-column="25" selection-end-line="403" selection-end-column="25" />
-          <folding>
-            <marker date="1544490520606" expanded="true" signature="4984:4989" ph="..." />
-            <marker date="1544490520606" expanded="true" signature="8296:11090" ph="..." />
-            <marker date="1544490520606" expanded="true" signature="9897:11090" ph="..." />
-            <marker date="1544490520606" expanded="true" signature="10279:11090" ph="..." />
-            <marker date="1544490520606" expanded="true" signature="10829:10835" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git/reposidore/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git/reposidore/new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
