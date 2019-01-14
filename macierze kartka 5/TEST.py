@@ -1,9 +1,8 @@
-import fun_mac as f
+import random
 
-A = f.random_uniform_m(4)
+K = 6
+A = 20
 
-f.print_m(A, 3)
+c = [ random.randint(0, K-1) for i in range(A) ]
 
-print("")
-
-f.print_m(A)
+print(c)
