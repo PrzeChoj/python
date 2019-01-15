@@ -1,0 +1,6 @@
+15.01.2019
+
+Abstrakcyjny typ danych - słownik
+
+
+
