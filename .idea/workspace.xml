@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f73e09b-d5b8-461d-b71a-5d91834aa105" name="Default Changelist" comment="" />
+    <list default="true" id="4f73e09b-d5b8-461d-b71a-5d91834aa105" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartka 6/funkcje.py" beforeDir="false" afterPath="$PROJECT_DIR$/kartka 6/funkcje.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,16 +15,16 @@
     <session id="1489190780">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,29 +33,29 @@
           <entry key="inp" value="12" />
           <entry key="odwrocone" value="11" />
           <entry key="png" value="114" />
-          <entry key="py" value="1292" />
-          <entry key="txt" value="594" />
+          <entry key="py" value="1319" />
+          <entry key="txt" value="599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="114" />
-          <entry key="PLAIN_TEXT" value="618" />
-          <entry key="Python" value="1292" />
+          <entry key="PLAIN_TEXT" value="623" />
+          <entry key="Python" value="1319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="281" />
           <entry key="inp" value="55" />
-          <entry key="py" value="54049" />
-          <entry key="txt" value="8451" />
+          <entry key="py" value="57589" />
+          <entry key="txt" value="8746" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="8787" />
-          <entry key="Python" value="54049" />
+          <entry key="PLAIN_TEXT" value="9082" />
+          <entry key="Python" value="57589" />
         </counts>
       </usages-collector>
     </session>
@@ -60,12 +63,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notatki PPPD/slownik.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,14 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spoj/SPOJ_806.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ 708.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ_708.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ_977.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ_1056.py" />
-        <option value="$PROJECT_DIR$/notatki PPPD/jak_dzialaja_macierze.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ_1042.py" />
-        <option value="$PROJECT_DIR$/spoj/SPOJ_1242.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_663.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_978.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_1011.py" />
@@ -132,6 +123,14 @@
         <option value="$PROJECT_DIR$/lab_05/zadanie_5_3.py" />
         <option value="$PROJECT_DIR$/notatki PPPD/notatki 15.01.2019.txt" />
         <option value="$PROJECT_DIR$/notatki PPPD/slownik.py" />
+        <option value="$PROJECT_DIR$/kartka 6/zadanko_6.4.py" />
+        <option value="$PROJECT_DIR$/kartka 6/zadanko_6.6.py" />
+        <option value="$PROJECT_DIR$/kartka 6/zadanko_6.7.py" />
+        <option value="$PROJECT_DIR$/kartka 6/funkcje.py" />
+        <option value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.txt" />
+        <option value="$PROJECT_DIR$/notatki PPPD/notatki 22.01.2019.txt" />
+        <option value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.py" />
+        <option value="$PROJECT_DIR$/obiektowka/TEST.py" />
       </list>
     </option>
   </component>
@@ -155,12 +154,27 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="kartka 6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="lab_05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="macierze kartka 5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="notatki PPPD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="obiektowka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
@@ -178,15 +192,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/macierze kartka 5" />
-      <recent name="$PROJECT_DIR$/SPOJ" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/obiektowka" />
       <recent name="$PROJECT_DIR$/notatki PPPD" />
+      <recent name="$PROJECT_DIR$/kartka 6" />
       <recent name="$PROJECT_DIR$/lab_05" />
       <recent name="$PROJECT_DIR$/punktowane_5" />
-      <recent name="$PROJECT_DIR$/zadanka" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/macierze kartka 5" />
       <recent name="$PROJECT_DIR$/SPOJ" />
     </key>
   </component>
@@ -202,8 +216,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.slownik">
-    <configuration name="TEST (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kodzik 22.01.2019">
+    <configuration name="funkcje" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +225,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/punktowane_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kartka 6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/punktowane_5/TEST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kartka 6/funkcje.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TEST (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kodzik 22.01.2019" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,32 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notatki PPPD" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_05/TEST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="punktowane_5_B" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/punktowane_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/punktowane_5/punktowane_5_B.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zadanie_5_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zadanko_6.6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,11 +288,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kartka 6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_05/zadanie_5_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kartka 6/zadanko_6.6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zadanko_6.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kartka 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kartka 6/zadanko_6.7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +323,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.punktowane_5_B" />
-      <item itemvalue="Python.TEST (2)" />
-      <item itemvalue="Python.zadanie_5_3" />
-      <item itemvalue="Python.TEST (3)" />
       <item itemvalue="Python.slownik" />
+      <item itemvalue="Python.funkcje" />
+      <item itemvalue="Python.zadanko_6.6" />
+      <item itemvalue="Python.zadanko_6.7" />
+      <item itemvalue="Python.kodzik 22.01.2019" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kodzik 22.01.2019" />
+        <item itemvalue="Python.zadanko_6.7" />
+        <item itemvalue="Python.zadanko_6.6" />
+        <item itemvalue="Python.funkcje" />
         <item itemvalue="Python.slownik" />
-        <item itemvalue="Python.zadanie_5_3" />
-        <item itemvalue="Python.TEST (3)" />
-        <item itemvalue="Python.TEST (2)" />
-        <item itemvalue="Python.punktowane_5_B" />
       </list>
     </recent_temporary>
   </component>
@@ -340,13 +354,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" visible="true" weight="0.30555555" />
+      <window_info anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" visible="true" weight="0.2488889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39444444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,37 +393,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/generator losowy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/sortowanie merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/Liczby.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="50000" selection-start-line="50000" selection-end-line="50000" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/sorted.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11513">
-          <caret line="11213" column="13" lean-forward="true" selection-start-line="11213" selection-start-column="13" selection-end-line="11213" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1_bundled.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3_bundled.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.4.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.5.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.3.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.2_bundled.py" />
     <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1.py" />
     <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/statystyki.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,9 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/punktowane_5/fun_mac.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/punktowane_5/rysunek_punktow.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -498,10 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
-          <folding>
-            <marker date="1547283563960" expanded="true" signature="300:1355" ph="..." />
-            <marker date="1547283563960" expanded="true" signature="1854:2136" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,9 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,10 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <marker date="1547456088811" expanded="true" signature="29:30" ph="..." />
-            <marker date="1547456088811" expanded="true" signature="29:34" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,15 +526,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notatki PPPD/notatki 30.10.2018.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/notatki PPPD/slownik.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kartka 6/zadanko_6.4.py" />
+    <entry file="file://$PROJECT_DIR$/kartka 6/zadanko_6.3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kartka 6/zadanko_6.6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kartka 6/zadanko_6.7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kartka 6/TEST.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kartka 6/funkcje.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <marker date="1547759585419" expanded="true" signature="810:815" ph="..." />
+            <marker date="1547759585419" expanded="true" signature="1176:1934" ph="..." />
+            <marker date="1547759585419" expanded="true" signature="1956:1961" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki PPPD/notatki 22.01.2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punktowane_5/fun_mac.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki PPPD/fun_mac.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+          <folding>
+            <marker date="1548184538978" expanded="true" signature="1400:1559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki PPPD/notatki 30.10.2018.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki PPPD/macierze.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

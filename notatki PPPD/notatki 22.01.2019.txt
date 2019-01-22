@@ -1,0 +1,11 @@
+22.01.2019
+
+Nie udalo sie programowac dynamicznie:
+zawijanie wierszy-w wordzie, żeby sum kwadradów miejsca wolnego po prawej stronie był jak najmniejszy
+
+
+
+dict - zbior par (klucz, wartosc)
+set  - zbior kluczy + operacje teorionogosciowe
+
+
