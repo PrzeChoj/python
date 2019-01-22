@@ -32,7 +32,8 @@
           <entry key="inp" value="12" />
           <entry key="odwrocone" value="11" />
           <entry key="png" value="114" />
-          <entry key="py" value="1355" />
+          <entry key="py" value="1387" />
+          <entry key="pyi" value="1" />
           <entry key="txt" value="599" />
         </counts>
       </usages-collector>
@@ -40,21 +41,22 @@
         <counts>
           <entry key="Image" value="114" />
           <entry key="PLAIN_TEXT" value="623" />
-          <entry key="Python" value="1355" />
+          <entry key="Python" value="1387" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="281" />
           <entry key="inp" value="55" />
-          <entry key="py" value="58416" />
+          <entry key="py" value="60441" />
           <entry key="txt" value="8746" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9082" />
-          <entry key="Python" value="58416" />
+          <entry key="Python" value="60441" />
         </counts>
       </usages-collector>
     </session>
@@ -62,10 +64,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
+        <entry file="file://$PROJECT_DIR$/obiektowka/Ulamek.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="576">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+              <folding>
+                <marker date="1548200997487" expanded="true" signature="1078:1114" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spoj/SPOJ_978.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_1011.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_8090.py" />
         <option value="$PROJECT_DIR$/zadanka/portfolio_macierzowe.py" />
@@ -134,6 +138,7 @@
         <option value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.py" />
         <option value="$PROJECT_DIR$/obiektowka/lista jednokierunkowa.py" />
         <option value="$PROJECT_DIR$/obiektowka/TEST.py" />
+        <option value="$PROJECT_DIR$/obiektowka/Ulamek.py" />
       </list>
     </option>
   </component>
@@ -220,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lista jednokierunkowa">
+  <component name="RunManager" selected="Python.Ulamek">
     <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +239,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obiektowka/TEST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ulamek" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/obiektowka" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obiektowka/Ulamek.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,27 +310,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zadanko_6.6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kartka 6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kartka 6/zadanko_6.6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="zadanko_6.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,19 +332,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.zadanko_6.6" />
       <item itemvalue="Python.zadanko_6.7" />
       <item itemvalue="Python.kodzik 22.01.2019" />
       <item itemvalue="Python.TEST" />
       <item itemvalue="Python.lista jednokierunkowa" />
+      <item itemvalue="Python.Ulamek" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lista jednokierunkowa" />
+        <item itemvalue="Python.Ulamek" />
         <item itemvalue="Python.TEST" />
+        <item itemvalue="Python.lista jednokierunkowa" />
         <item itemvalue="Python.kodzik 22.01.2019" />
         <item itemvalue="Python.zadanko_6.7" />
-        <item itemvalue="Python.zadanko_6.6" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -396,16 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/statystyki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.10.py" />
-    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq1.txt" />
-    <entry file="file://$PROJECT_DIR$/zadanka/magic_sq2.txt" />
     <entry file="file://$PROJECT_DIR$/zadanka/magic_sq3.txt" />
     <entry file="file://$PROJECT_DIR$/zadanka/TEST.py" />
     <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.11.py" />
@@ -599,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/obiektowka/lista jednokierunkowa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <marker date="1548193170394" expanded="true" signature="17:18" ph="..." />
             <marker date="1548193170394" expanded="true" signature="17:741" ph="..." />
@@ -609,10 +605,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3072">
+          <caret line="796" column="8" selection-start-line="796" selection-start-column="8" selection-end-line="796" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29874">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../git/pppd1819/lab-AC/lab-06/zad-6_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3181" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obiektowka/Ulamek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <marker date="1548200997487" expanded="true" signature="1078:1114" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
