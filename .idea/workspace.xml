@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f73e09b-d5b8-461d-b71a-5d91834aa105" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartka 6/funkcje.py" beforeDir="false" afterPath="$PROJECT_DIR$/kartka 6/funkcje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obiektowka/TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/obiektowka/TEST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
           <entry key="inp" value="12" />
           <entry key="odwrocone" value="11" />
           <entry key="png" value="114" />
-          <entry key="py" value="1319" />
+          <entry key="py" value="1355" />
           <entry key="txt" value="599" />
         </counts>
       </usages-collector>
@@ -41,21 +40,21 @@
         <counts>
           <entry key="Image" value="114" />
           <entry key="PLAIN_TEXT" value="623" />
-          <entry key="Python" value="1319" />
+          <entry key="Python" value="1355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="281" />
           <entry key="inp" value="55" />
-          <entry key="py" value="57589" />
+          <entry key="py" value="58416" />
           <entry key="txt" value="8746" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9082" />
-          <entry key="Python" value="57589" />
+          <entry key="Python" value="58416" />
         </counts>
       </usages-collector>
     </session>
@@ -64,7 +63,11 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -80,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spoj/SPOJ_663.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_978.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_1011.py" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_8090.py" />
@@ -130,6 +132,7 @@
         <option value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.txt" />
         <option value="$PROJECT_DIR$/notatki PPPD/notatki 22.01.2019.txt" />
         <option value="$PROJECT_DIR$/notatki PPPD/kodzik 22.01.2019.py" />
+        <option value="$PROJECT_DIR$/obiektowka/lista jednokierunkowa.py" />
         <option value="$PROJECT_DIR$/obiektowka/TEST.py" />
       </list>
     </option>
@@ -188,6 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dtgt/Desktop/programiki/python/obiektowka/lista jednokierunkowa.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -216,8 +220,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kodzik 22.01.2019">
-    <configuration name="funkcje" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lista jednokierunkowa">
+    <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kartka 6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/obiektowka" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kartka 6/funkcje.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obiektowka/TEST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="slownik" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lista jednokierunkowa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,11 +271,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notatki PPPD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/obiektowka" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notatki PPPD/slownik.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obiektowka/lista jednokierunkowa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +327,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.slownik" />
-      <item itemvalue="Python.funkcje" />
       <item itemvalue="Python.zadanko_6.6" />
       <item itemvalue="Python.zadanko_6.7" />
       <item itemvalue="Python.kodzik 22.01.2019" />
+      <item itemvalue="Python.TEST" />
+      <item itemvalue="Python.lista jednokierunkowa" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lista jednokierunkowa" />
+        <item itemvalue="Python.TEST" />
         <item itemvalue="Python.kodzik 22.01.2019" />
         <item itemvalue="Python.zadanko_6.7" />
         <item itemvalue="Python.zadanko_6.6" />
-        <item itemvalue="Python.funkcje" />
-        <item itemvalue="Python.slownik" />
       </list>
     </recent_temporary>
   </component>
@@ -354,14 +358,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" visible="true" weight="0.2488889" />
+      <window_info anchor="bottom" x="0" y="296" width="1440" height="258" id="Run" order="2" visible="true" weight="0.2711111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39444444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zadanka/zadanko_5.1.py" />
     <entry file="file://$PROJECT_DIR$/podstawowa analiza danych/statystyki.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -595,8 +597,24 @@
     <entry file="file://$PROJECT_DIR$/notatki PPPD/macierze.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/obiektowka/lista jednokierunkowa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <marker date="1548193170394" expanded="true" signature="17:18" ph="..." />
+            <marker date="1548193170394" expanded="true" signature="17:741" ph="..." />
+            <marker date="1548193170394" expanded="true" signature="83:184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/obiektowka/TEST.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
