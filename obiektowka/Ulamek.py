@@ -59,10 +59,10 @@ class Ulamek:
     """
     # jak nadpisac dzielenie?
     # bo __div__() nie dziala :(
-    def __div__(self):
+    def __div__(self, other):
         if type(other) == int or type(other) == float:
+            return Ulamek(self.licznik/other, self.mianownik)
     """
-
 
 
 l = Ulamek(21, 2)
@@ -76,3 +76,4 @@ print(l - 3)
 print("dupa")
 print(l*3)
 print(2*l)
+#print(l/2)
