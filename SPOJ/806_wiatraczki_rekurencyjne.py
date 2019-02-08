@@ -4,10 +4,11 @@ wiatraczki rekurencyjne
 """
 
 def wiatraczki(r):
-    kierunek = False
+    kierunek = True
 
-    if r > 0: kierunek = True
-    else: r = -r
+    if r < 0:
+        kierunek = False
+        r = -r
 
     wiatrak = [[None]*(2*r) for i in range(2*r)]
     if r == 1:
@@ -16,7 +17,10 @@ def wiatraczki(r):
                 wiatrak[i][j] = "*"
         return wiatrak
 
-    wiatrak_last = wiatraczki(r-1)
+    if kierunek:
+        wiatrak_last = wiatraczki(r - 1)
+    else:
+        wiatrak_last = wiatraczki(-(r-1))
 
     for i in range(1, 2*r-1):
         for j in range(1, 2*r-1):

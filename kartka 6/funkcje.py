@@ -96,4 +96,51 @@ def split_codes(x, f):
     2 listy: x-wartosci i f-indexy (0, 1, 2, .., k-1)
     zwraca liste o dlugosci len(f) taka, ze
     o[i] == [ x[i1], x[i2], ... ] tak, ze wszytskie f[in]==i
+
+    Przyklad:
+    print(split_codes([13, 1, 1, 12, 0, 0], [1, 2, 10, 13, 0, 2]))
     """
+    assert len(x) == len(f)
+
+    k = max(f) + 1
+    # k = 4
+
+    out = [ [] for i in range(k) ]
+    # [ [], [], [], [] ]
+
+    for i in range(k):
+        for j in range(len(f)):
+            if f[j] == i:
+                out[i].append(x[j])
+
+    return out
+
+def unique(x):
+    """
+    Przyjmuje posortowana liste x i wyrzuca liste bez powtarzajacych sie
+    """
+    bez = [None] * len(x)
+
+    poprzedni = x[0]
+    bez[0] = poprzedni
+    index_bez = 0
+    for i in range(1, len(x)):
+        if x[i] != poprzedni:
+            index_bez += 1
+            bez[index_bez] = x[i]
+            poprzedni = x[i]
+
+    out = [None] * (index_bez+1)
+
+    for i in range(index_bez+1):
+        out[i] = bez[i]
+
+    return out
+
+
+
+
+
+
+
+
